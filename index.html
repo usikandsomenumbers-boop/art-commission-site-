@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Art Studio | Portfolio & Commissions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-zinc-950 text-white">
+  <nav class="bg-black p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">YourArtStudio</h1>
+    <div class="space-x-6">
+      <a href="index.html" class="hover:text-amber-400">Portfolio</a>
+      <a href="commissions.html" class="hover:text-amber-400">Commissions</a>
+      <a href="queue.html" class="hover:text-amber-400">Current Queue</a>
+      <a href="dashboard.html" class="hover:text-amber-400">Artist Login</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="h-screen flex items-center justify-center bg-gradient-to-br from-zinc-900 to-black text-center">
+    <div>
+      <h2 class="text-6xl font-bold mb-4">Custom Art Commissions</h2>
+      <p class="text-xl mb-8">High-quality illustrations & paintings • Open slots available</p>
+      <a href="commissions.html" class="bg-amber-500 text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-amber-400">Request Commission</a>
+    </div>
+  </section>
+
+  <!-- Portfolio Gallery -->
+  <section class="py-20 px-8 max-w-7xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-12">Portfolio</h2>
+    <div id="portfolio-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- JS will populate with your images -->
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
